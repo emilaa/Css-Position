@@ -1,0 +1,130 @@
+body {
+  background-color: blue;
+}
+
+.card .img img {
+  width: 380px;
+  height: 450px;
+  position: absolute;
+  top: 120px;
+  left: 560px;
+  border: 20px solid grey;
+  border-radius: 30px;
+}
+
+.card h1 {
+  position: absolute;
+  top: 400px;
+  left: 700px;
+  color: white;
+  font-size: 25px;
+}
+
+.card p {
+  position: absolute;
+  top: 430px;
+  left: 682px;
+  color: white;
+  font-size: 21px;
+}
+
+.card .icon {
+  position: absolute;
+  top: 500px;
+  left: 598px;
+  display: flex;
+}
+
+.card .icon i {
+  font-size: 30px;
+  padding-left: 15px;
+  color: white;
+  padding-top: 10px;
+}
+
+.card .icon .social:hover {
+  background-color: blue;
+}
+
+.card .icon .social1:hover {
+  background-image: linear-gradient(
+    #405de6,
+    #5851db,
+    #833ab4,
+    #c13584,
+    #e1306c,
+    #fd1d1d,
+    #f56040,
+    #f77737,
+    #fcaf45,
+    #ffdc80
+  );
+}
+
+.card .icon .social2:hover {
+  background-color: red;
+}
+
+.card .icon .social3:hover {
+  background-color: rgb(83, 83, 248);
+}
+
+.card .icon .social {
+  width: 60px;
+  height: 50px;
+  border: 1px solid white;
+  border-radius: 50%;
+}
+
+.card .icon .social1 {
+  width: 60px;
+  height: 50px;
+  border: 1px solid white;
+  border-radius: 50%;
+}
+
+.card .icon .social2 {
+  width: 60px;
+  height: 50px;
+  border: 1px solid white;
+  border-radius: 50%;
+}
+
+.card .icon .social3 {
+  width: 60px;
+  height: 50px;
+  border: 1px solid white;
+  border-radius: 50%;
+}
+
+.card .icon .tringle {
+  position: absolute;
+  top: 78px;
+  left: 118px;
+}
+
+.card .icon .tringle i {
+  font-size: 60px;
+}
+.card button {
+  width: 420px;
+  height: 50px;
+  position: absolute;
+  top: 645px;
+  left: 562px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.card button:hover {
+  background-color: rgb(221, 211, 211);
+}
+
+.card span {
+  font-size: 25px;
+  color: rgb(103, 103, 230);
+}
+.icon div {
+  margin-left: 20px;
+}

@@ -1,0 +1,122 @@
+body {
+  background-image: linear-gradient(to right, orange, red);
+  display: flex;
+  justify-content: center;
+}
+
+@font-face {
+  font-family: font;
+  src: url(../fonts/Teko-Medium.ttf);
+}
+
+.main {
+  width: 900px;
+  height: 450px;
+  background-color: white;
+  position: absolute;
+  top: 140px;
+  border-radius: 30px;
+  position: relative;
+  padding: 10px;
+  box-shadow: 5px 10px 8px 1px rgb(177, 177, 169);
+}
+
+.main .content {
+  position: absolute;
+  padding-left: 400px;
+  top: 75px;
+  font-size: 24px;
+}
+
+.main .text span,
+p {
+  color: grey;
+}
+
+.main .content span,
+h1,
+p {
+  font-family: font;
+}
+
+.main .content .text .span {
+  position: absolute;
+  top: 10px;
+}
+
+.main .content .text h1 {
+  padding-top: 35px;
+}
+
+.main .content button {
+  width: 170px;
+  height: 50px;
+  cursor: pointer;
+  background-image: linear-gradient(to right, orange, red);
+  border-radius: 20px;
+  border: none;
+}
+
+.main .content button:hover{
+  background-image: linear-gradient(yellow, red);
+}
+
+.main .content button span {
+  font-size: 25px;
+  color: white;
+}
+
+.main .non-div {
+  width: 330px;
+  height: 330px;
+  background-image: linear-gradient(to left, orange, red);
+  position: absolute;
+  top: 50px;
+  left: -60px;
+  border-radius: 20px;
+  padding: 10px;
+  box-shadow: 5px 10px 8px rgb(250, 209, 96);
+  cursor: pointer;
+}
+
+.main .non-div:hover{
+  background-image: linear-gradient(yellow, red);
+
+}
+
+.main .slider{
+    position: absolute;
+    right: 25px;
+    top: 200px;
+}
+
+.main .div1 {
+  width: 12px;
+  height: 13px;
+  background-color: rgb(197, 184, 184);;
+  position: absolute;
+  top: -23px;
+  border-radius: 50%;
+}
+
+.main .div2 {
+  width: 12px;
+  height: 35px;
+  background-image: linear-gradient(to left, orange, red);
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.main .div2:hover{
+  background-image: linear-gradient(yellow, red);
+
+}
+
+.main .div3 {
+  width: 12px;
+  height: 13px;
+  background-color: rgb(197, 184, 184);
+  position: absolute;
+  top: 45px;
+  border-radius: 50%;
+}
